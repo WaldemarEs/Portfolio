@@ -9,68 +9,80 @@
     <link rel="stylesheet" href="css/all.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Galada&display=swap"
       rel="stylesheet"
     />
   </head>
   <body>
     <!--Inicia el nav-->
-    <header class="header-container">
-      <nav id="navbar" class="nav1">
-        <h1>Waldemar Escobar</h1>
-        <ul class="nav-list">
-          <li><a href="#welcome-section">Sobre mi</a></li>
-          <li><a href="#projects">Trabajos</a></li>
-          <li><a href="#contac">Contacto</a></li>
-        </ul>
-      </nav>
-    </header>
-    <!--seccion de bienvenida-->
-    <section id="welcome-section" class="section1">
-      <div class="details" >
-        <h1>Hola, Soy Waldemar Escobar</h1>
-        <p>Web Designer - Profesor de música</p>
-        <br />
-        <a href="#">Descarga mi CV</a>
-      </div>
-      <div class="images">
-        <img src="img\klipartz.com.png" alt="mi imagen" />
+    <nav id="navbar" class="nav">
+      <ul class="nav-list">
+        <li><a href="#welcome-section">Sobre mi</a></li>
+        <li><a href="#projects">Trabajos</a></li>
+        <li><a href="#contact">Contacto</a></li>
+      </ul>
+    </nav>
+    <!-- Finaliza la nav -->
+
+    <!-- Seccion de bienvenida-->
+    <section id="welcome-section">
+      <h1>Hola, Soy Waldemar Escobar</h1>
+      <p>Un desarrollador web</p>
+    </section>
+    <!--Fin de la seccion de bienvenida-->
+
+    <!-- Seccion de proyectos inicio-->
+    <section id="projects" class="projects-section">
+      <h2>Estos son algunos de mis proyectos</h2>
+      <div class="article-container">
+        <article class="container-box">
+          <a href="https://codepen.io/waldemares/full/WNZGVGp" target="_blank">
+            <img
+              class="project-image"
+              src="img\tribute page.jpg"
+              alt="Tribute Page"
+          /></a>
+          <a href="https://codepen.io/waldemares/full/WNZGVGp" target="_blank"
+            ><p class="project-tile">Tribute Page</p></a
+          >
+        </article>
+        <article class="container-box">
+          <a href="https://codepen.io/waldemares/full/KKXNXqr" target="_blank">
+            <img
+              class="project-image"
+              src="img\form page.jpg"
+              alt="Form Page"
+            />
+            <p class="project-tile">Form Page</p></a
+          >
+        </article>
+        <article class="container-box">
+          <a href="https://codepen.io/waldemares/full/ExwmVjq" target="_blank">
+            <img
+              class="project-image"
+              src="img\landing page.jpg"
+              alt="Landing Page"
+            />
+            <p class="project-tile">Landing Page</p></a
+          >
+        </article>
       </div>
     </section>
-    <section id="projects" >
-      <h2>Algunos de mis proyectos</h2>
-      <article class="projects-contain">
-      <div class="project-flex">
-        <a
-      href="https://waldemares.github.io/paginaDeProducto/"
-      target="_blank"
-      class="project project-tile">
-      <img src="#" alt="titulo de la imagen" class="priject-img">
-      <p class="project-title">
-        Landding Page
-      </p>
-      </div>
-      <div class="project-flex">
-        <a
-      href="https://waldemares.github.io/paginaDeProducto/"
-      target="_blank"
-      class="project project-tile">
-      <img src="#" alt="titulo de la imagen" class="priject-img">
-      <p class="project-title">
-        Survey Page
-      </p>
-      </div>
-    </article>
+    <!-- Final de seccion de proyectos-->
+
+    <!-- Seccion de contacto-->
+    <section id="contact" class="contac-section">
+      <h2>Trabajemos juntos</h2>
+      <p>Compartamos un café</p>
     </section>
+    <!--Termina la seccion de contacto-->
+
+    <!-- El foter-->
+    <footer>&copy;Waldemar Escobar</footer>
+    <!-- Fin del footer-->
   </body>
 </html>
 <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
